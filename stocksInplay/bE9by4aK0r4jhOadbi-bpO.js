@@ -1,0 +1,1 @@
+/**/Tynt.sc({"ap":"Read more: ","aw":"50","d":true,"domain":"_deleted_0_www.briefing.com"})

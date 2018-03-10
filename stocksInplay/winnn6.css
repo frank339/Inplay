@@ -1,0 +1,817 @@
+/* Drop-Down Menu Style */
+.menu {
+	font-family:"Arial Narrow", Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	color:#000000;
+}
+
+/* Header 1 Style */
+.brf-header1 {
+	color:#000000;
+	font-family:Arial;
+	font-size:medium;
+	font-style:normal;
+	font-weight:bold;
+}
+.brf-header1Blue {
+	color: #0033CC;
+	font-family:Arial;
+	font-size:medium;
+	font-style:normal;
+	font-weight:bold;
+}
+/* Header 2 Style */
+.brf-header2 {
+	color:#333333;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:small;
+	font-style:normal;
+	font-weight:bold;
+}
+
+/* Header 3 Style */
+.brf-header3,
+.sectionTitle, .sectionTitleP,
+.storyTitle {
+	color:#333333;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:small;
+	font-style:normal;
+	font-weight:bold;
+}
+/* Text Style */
+.brf-text,
+.st-Art,
+TD,
+p,
+ul,
+ol,
+li {
+	color: #000000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:small;
+	line-height:125%;  /* changed from 150% 01-22-03 - to much white space between lines in tables */
+}
+
+pre { /* added for Bonds Quotes pages from CMS 02-12-03 */
+	color: #000000;
+	font-size:small;
+	font-family: "Courier New", Courier, monospace;	
+}
+
+/* Bold Style */
+h3, h4, h2, .brf-bold, .header
+{
+	color: #000000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:small;
+	font-style:normal;
+	font-weight:bold;
+}
+
+/* Bold Italic Style */
+.brf-bolditalic {
+	color: #000000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:small;
+	font-style:italic;
+	font-weight:bold;
+}
+
+/* Italic Style */
+.brf-italic {
+	color: #000000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:small;
+	font-style:italic;
+}
+
+/* Small Text Style */
+.brf-smalltext, .brf-smalltextP,
+.pageDate,
+.pageNote,
+.pageLink,
+.sectionURL,
+.st-Time,
+.note,
+.tab,
+.return,
+.td1a,
+.nav
+ {
+	color: #000000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:x-small;
+	font-style:normal;
+	font-weight:normal;
+}
+
+/* Small Italic Text Style */
+.brf-smallitalic {
+	color: #000000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:x-small;
+	font-style:italic;
+}
+
+/* Small Bold Style */
+.brf-smallbold
+ {
+	color: #000000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:x-small;
+	font-style:normal;
+	font-weight:bold;
+}
+input.searchpage {
+	width:50px;
+}
+
+.sectionColor, .sectionColorP {	
+background-color: #CCCFD3;
+}
+
+.rGrid {/*RowGrid*/
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.rD, .rDp   {/*RowDark*/
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #F0F0F0;
+}
+
+.rDa   {/*RowDarkAlert*/
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+	background:#F0F0F0;
+	color: #0033FF;
+}
+
+.rL, .rLp  {/*RowLight*/
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+	background:#ffffff;
+}
+
+.rLa   {/*RowLight Alert*/
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+	background:#ffffff;
+	color: #0033FF;
+}
+
+/* For Headlines*/
+a.rDHL  {/*RowDark*/
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #F0F0F0;
+	text-decoration: none;
+	color: #000000;
+}
+a:visited.rDHL   {/*RowDark*/
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+	background:#F0F0F0;
+	color: #003366;
+	text-decoration: none;
+}
+a:hover.rDHL   {/*RowDark*/
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+	background:#F0F0F0;
+	color: #0033FF;
+	text-decoration: none;
+}
+
+a.rLHL  {/*RowLight*/
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	text-decoration: none;
+	color: #000000;
+}
+a:visited.rLHL   {/*RowLight*/
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+	background:#FFFFFF;
+	color: #003366;
+	text-decoration: none;
+}
+a:hover.rLHL   {/*RowLight*/
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+	background:#FFFFFF;
+	color: #0033FF;
+	text-decoration: none;
+}
+
+a.rDaHL   {/*RowDarkAlert*/
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background:#F0F0F0;
+	color: #E73005; /* red alert color changed here */
+	text-decoration: none;
+}
+a:visited.rDaHL   {/*RowDarkAlert*/
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+	background:#F0F0F0;
+	font-weight: bold;
+	color: #E73005;  /* red alert color changed here */
+	text-decoration: none;
+}
+a:hover.rDaHL   {/*RowDarkAlert*/
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+	background:#F0F0F0;
+	font-weight: bold;
+	color: #000000;  /* change color to black here */
+	text-decoration: none;
+}
+
+/* For Headlines Alert off*/
+a.rDbHL   {/*RowDarkAlert*/
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background:#F0F0F0;
+	color: #000000; /* change color to black here */
+	text-decoration: none;
+}
+a:visited.rDbHL   {/*RowDarkAlert*/
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+	background:#F0F0F0;
+	font-weight: bold;
+	color: #000000; /* change color to black here */
+	text-decoration: none;
+}
+a:hover.rDbHL   {/*RowDarkAlert*/
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+	background:#F0F0F0;
+	font-weight: bold;
+	color: #E73005; /* change color to red here */
+	text-decoration: none;
+}
+
+/* Earnings By Sector Day On Style */
+.EarnSectorDayOn {
+	color: #ffffff;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:x-small;
+	font-style:normal;
+	font-weight:bold;
+	background:#455896;
+}
+
+.rH, .rHp {
+	color: #666666;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:x-small;
+	font-style:normal;
+	font-weight:bold;
+}
+
+TH {
+	color: #666666;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:x-small;
+	font-style:normal;
+	font-weight:bold;
+	background-color: #CCCFD3;
+}
+
+.rE,
+.rowD {/*RowEnd*/
+	background:#F0F0F0;
+}
+
+/* ####### start Archive Calendar styles ########## */
+
+.rDarch {/*RowDarkarch*/
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #CCCFD3;
+}
+.rLarch  {/*RowLight archives no date*/
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+	background:#ffffff;
+	color: #949494;
+}
+.rLarchOff {/*RowLight archives Sun-Sat*/
+	font-size:small;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #949494;
+}
+a.rLarchOff {/*RowLight archives Sun-Sat*/
+	color: #949494;
+	text-decoration: none;
+}
+a:visited.rLarchOff {/*RowLight archives Sun-Sat*/
+	color: #949494;
+	text-decoration: none;
+}
+a:hover.rLarchOff {/*RowLight archives Sun-Sat*/
+	color: #949494;
+	text-decoration: none;
+}
+a.rLarchOn {/*RowLight archives Sun-Sat*/
+	color: #666666;
+	text-decoration: underline;
+}
+a.rLarchDay {/*RowLight archives today*/
+	color: #0033FF;
+}
+a.noline {/*link with no text-decoration*/
+	text-decoration: none;
+}
+/* ####### End Archive Calendar styles ########## */
+
+
+/* ####### start Archive Calendar styles - Misha ########## */
+
+.CalendBody
+{
+	border-width:1px;
+	border-style:solid;
+	font-family:Arial;
+	font-size:small;
+	height:199px;width:287px;
+	border-collapse:collapse;
+	color:#000000;
+	background-color:#FFFFFF;
+}
+
+.CalendTitle
+{
+	color:#333333;
+	background-color:#CCCFD3;
+}
+
+.OtherMonthDays
+{
+	background-color:#EEEEEE;
+	color:#0000FF;
+}
+
+.SelectedDay
+{
+	background-color:Navy;
+	color:#0000FF;
+}
+
+.WeekEnd
+{
+	background-color:#FFFFFF;
+	color:#FFFFFF
+}
+
+.DayHeader{
+	font-size:small;
+	Font-Bold:True;
+	HorizontalAlign:Center;
+	color:#000000;
+	VerticalAlign:Middle;
+	background-color:#FFFFFF
+}
+
+.Day{
+color:Navy;
+background-color:#FFFFFF
+}
+
+.TodayDay{
+	font-size:small;
+	Font-Bold:True;
+	HorizontalAlign:Center;
+	VerticalAlign:Middle;
+	color:#FFFFFF;
+	background-color:#CCCFD3
+}
+
+/* ####### End Archive Calendar styles - Misha ########## */
+
+.foot   {/* FootNote*/
+	font-size:x-small;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+
+.dateR {/*Date for Records*/
+	font-size:x-small;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	}
+
+.tabOn {
+	color: #505050;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:x-small;
+	font-style:normal;
+	font-weight:bold;
+}
+	
+A.tabOn {text-decoration:none; color:#505050;  font-weight: bold;}
+a:visited.tabOn {text-decoration:none; color:#505050;}
+a:hover.tabOn {text-decoration:none; color:#505050;}
+
+.red {
+	color : #FF0033;
+}
+.green {
+	color : #009933;
+}
+.return
+ {
+	color: #3366CC;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:x-small;
+	font-style:normal;
+	font-weight:normal;
+}
+
+a.return {color: #3366CC;}
+a:visited.return {color:#3366CC;}
+a:hover.return {color:#3366CC;}
+
+.copyr,
+.copyR {
+	font-size:11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a.copyr,
+a.copyR {
+	text-decoration:none;
+	color:#6a6a6a;
+}
+a.copyr:visited,
+a.copyR:visited {
+	color:#8e8e8e;
+}
+a.copyr:hover,
+a.copyR:hover {
+	color: #000000;
+}
+
+.index {
+	font-size:11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#666666;
+}
+
+A.index {
+	text-decoration:underline;
+	color:#666666;
+}
+
+a:visited.index {
+	text-decoration:underline;
+	color:#666666;
+}
+
+a:hover.index {
+	text-decoration:underline;
+	color: #0033ff;
+}
+
+/* ####### Ticker Search Styles ########## */
+
+.tsDate,
+.tsPage {
+	font-size: xx-small;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+/* ##### For MarketPlace ##### */
+.mplink {
+	font-size:13px;
+	font-family : Arial, Helvetica, sans-serif;
+}
+a.mplink {color:#000000; text-decoration: none;} 
+a.mplink:visited {color:#000000; text-decoration: none;}
+a.mplink:hover {color: #0000CD; text-decoration: underline;}
+
+.mpSubtitle {
+	background-color: #557c88;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 14px;
+	font-weight : bold;
+	color : #ffffff;
+}
+
+/*  For New Marketplace placement*/
+	.mplinkA {
+	font-size:x-small;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background-color: #ffffff;
+}
+.mplinkheadA {
+	font-size:x-small;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background-color: #cbcbcb;
+	font-weight : bold;
+	color: #595959;
+}
+a.mplinkA {color:#000000; text-decoration: none;} 
+a.mplinkA:visited {color:#000000; text-decoration: none;}
+a.mplinkA:hover {color: #0000CD; text-decoration: underline;}
+
+.mpSubtitleA {
+	background-color: #000000;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : xx-small;
+	font-weight : bold;
+	color : #ffffff;
+}
+/* Live In Play Styles*/
+.storyTitleHL1
+{
+	color:#E73005;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:small;
+	font-style:normal;
+	font-weight:bold;
+	line-height:150%;
+}
+.storyTitleHL2
+{
+	color:#E73005;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:small;
+	font-style:normal;
+	font-weight:bold;
+	line-height:150%;
+}
+
+/* ## For BriefingTrader ## */
+.HeadlineTrader
+ {
+	color:#333333;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:small;
+	font-style:normal;
+	font-weight:bold;
+}
+
+.HotInPlay { background-color: #FFCC00; 
+font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:small;
+	font-style:normal;
+  } 
+
+.InPlay { background-color: #FFFFFF; 
+font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:small;
+	font-style:normal;
+  } 
+
+.HotInPlayHeadline { background-color: #FFCC00; 
+font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:small;
+	font-style:normal;
+	font-weight:bold;
+  } 
+  
+a.HotInPlay {font-weight: bold;}
+
+.TraderTab {
+	color: #ffffff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	background:#093C67; 
+}
+.TraderTabOn {
+	color: #ffffff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	background:#0099CC; 
+}
+	
+A.TraderTab {text-decoration:none; color:#FFFFFF;  /*font-weight:bold;*/}
+a:visited.TraderTab {text-decoration:none; color:#ffffff;}
+a:hover.TraderTab {color:#FF9900;}
+
+A.TraderTabOn {text-decoration:none; color:#FFFFFF; /*font-weight:bold;*/}
+a:visited.TraderTabOn {text-decoration:none; color:#ffffff;}
+a:hover.TraderTabOn {text-decoration:none; color:#505050;}
+
+.SidebarTop 
+{
+	color: #ffffff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-weight:bold;
+	background-color:#336699 
+}
+
+.SidebarText {
+	color: #000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-weight:normal;
+}
+.SidebarTextHilight {
+	color: #000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-weight:normal;
+	background-color:#FFFF00
+}
+.SidebarBox {background-color:#eeeeee}
+
+A.HoverTrader {
+	COLOR: #000000;
+	text-decoration: none;
+}
+A:HoverTrader.visited {
+	text-decoration: none;
+	COLOR: #000000
+}
+A:HoverTrader.hover {
+	text-decoration: none;
+	COLOR: #0033ff
+}
+
+/* ------------- Serge's changes ---------------- */
+
+/* Trader In Play styles */
+.headlineTraderInPlay { background-color: #FFEEAA; 
+font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:small;
+	font-style:normal;
+	font-weight:bold;
+  } 
+  
+.articleTraderInPlay { background-color: #FFEEAA; 
+font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:small;
+	font-style:normal;
+  } 
+
+a.articleTraderInPlay {font-weight: bold;}
+
+/* Non Trader, In Play styles */
+.headlineInPlay { background-color: #FFFFFF; 
+font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:small;
+	font-style:normal;
+	font-weight:bold;
+  } 
+
+.articleInPlay { background-color: #FFFFFF; 
+font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:small;
+	font-style:normal;
+  } 
+
+a.articleInPlay {font-weight: bold;}
+
+
+/* MODIFIED Trader Hidden Hint In Play styles */
+SPAN.hintTraderInPlay
+{
+	PADDING-TOP: 4px;
+	PADDING-RIGHT: 6px;
+	PADDING-BOTTOM: 6px;
+	PADDING-LEFT: 6px;
+	FONT-WEIGHT: normal;
+	LEFT: 0px;
+	VISIBILITY: hidden;
+	TEXT-TRANSFORM: none;
+	WIDTH: 500px;
+	COLOR: #000000;
+	FONT-STYLE: normal;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	line-height:125%;
+	POSITION: absolute;
+	TOP: 0px;
+	background-color: #FFEEAA;
+	FONT-VARIANT: normal;
+	TEXT-DECORATION: none;
+	border: #0000FF 2px solid;
+}
+
+SPAN.hintInPlay
+{
+	PADDING-TOP: 4px;
+	PADDING-RIGHT: 6px;
+	PADDING-BOTTOM: 6px;
+	PADDING-LEFT: 6px;
+	FONT-WEIGHT: normal;
+	LEFT: 0px;
+	VISIBILITY: hidden;
+	TEXT-TRANSFORM: none;	
+	WIDTH: 500px;
+	COLOR: #000000;
+	FONT-STYLE: normal;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	line-height:125%;
+	POSITION: absolute;
+	TOP: 0px;
+	background-color: #EEF2F6;
+	FONT-VARIANT: normal;
+	TEXT-DECORATION: none;
+	border: 2px solid #0000FF;
+}
+
+SPAN.hintOn HR
+{
+	WIDTH: 80%;
+	COLOR: black;
+	HEIGHT: 1px
+}
+
+/* ## End MODIFIED BriefingTrader Styles ## */
+
+/* Alpha Trader Hidden Hint In Play styles 
+SPAN.hintTraderInPlay
+{
+	BORDER-RIGHT: #0033FF 1px solid;
+	PADDING-RIGHT: 6px;
+	BORDER-TOP: #0033FF 1px solid;
+	PADDING-LEFT: 6px;
+	FONT-WEIGHT: normal;
+	LEFT: 0px;
+	VISIBILITY: hidden;
+	PADDING-BOTTOM: 4px;
+	TEXT-TRANSFORM: none;
+	BORDER-LEFT: #0033FF 1px solid;
+	WIDTH: 500px;
+	COLOR: #000000;
+	PADDING-TOP: 4px;
+	BORDER-BOTTOM: #0033FF 1px solid;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Arial;
+	POSITION: absolute;
+	TOP: 0px;
+	background-color: #FFCC00;
+	FONT-VARIANT: normal;
+	TEXT-DECORATION: none
+}
+
+SPAN.hintInPlay
+{
+	BORDER-RIGHT: #0033FF 1px solid;
+	PADDING-RIGHT: 6px;
+	BORDER-TOP: #0033FF 1px solid;
+	PADDING-LEFT: 6px;
+	FONT-WEIGHT: normal;
+	LEFT: 0px;
+	VISIBILITY: hidden;
+	PADDING-BOTTOM: 4px;
+	TEXT-TRANSFORM: none;
+	BORDER-LEFT: #0033FF 1px solid;
+	WIDTH: 500px;
+	COLOR: #000000;
+	PADDING-TOP: 4px;
+	BORDER-BOTTOM: #0033FF 1px solid;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Arial;
+	POSITION: absolute;
+	TOP: 0px;
+	background-color: #EEF2F6;
+	FONT-VARIANT: normal;
+	TEXT-DECORATION: none
+}
+
+SPAN.hintOn HR
+{
+	WIDTH: 80%;
+	COLOR: black;
+	HEIGHT: 1px
+}
+
+ ## End Alpha BriefingTrader Styles ## */
+ 
+/*FOR STORYEDITOR TABLE DESIGN*/
+
+td.bgDark1 { background-color: #F0F0F0; }
+td.bgHilite1 { background-color: #D5FFFE; }
+
+/* Analyst embedded not fixed width table, Platinum style. */	
+table.Analyst1 
+	{ border-collapse: collapse; border: 1px solid #CCCFD3; }
+table.Analyst1 td 
+	{ font-size: .76em; font-family: Verdana, Arial, Helvetica, sans-serif; padding: 2px 2px 2px 5px; vertical-align: top; }
+table.Analyst1 th 
+	{ font-size: .7em; font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #CCCFD3; color: #666666; font-weight: Bold;  text-align: left; padding: 4px 4px 4px 4px; vertical-align: top;}
+	
+/* ANALYST TABLE WITH BOTTOM & SIDE BORDERS */	
+table.Analyst3 
+	{ border-collapse: collapse; border: 1px solid #CCCFD3; }
+table.Analyst3 td 
+	{ font-size: .76em; font-family: Verdana, Arial, Helvetica, sans-serif; padding: 2px 2px 2px 5px; vertical-align: top; border-bottom: 1px solid #DDDFE2; border-right: 1px solid #DDDFE2;}
+table.Analyst3 th 
+	{ font-size: .7em; font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #CCCFD3; color: #666666; font-weight: Bold;  text-align: left; padding: 4px 4px 4px 4px; vertical-align: top;}
